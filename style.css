@@ -1,0 +1,722 @@
+.bar {
+    position: absolute;
+    height: 150%;
+    width: 100px;
+    background: linear-gradient(to bottom, transparent, #ff6b00, transparent);
+    transform: rotate(30deg);
+    animation: slide 20s infinite linear;
+}
+
+.Krim-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.price-card-header h3 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.price-card:nth-child(4) { animation-delay: 0.4s; }
+
+.contact-btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(255, 107, 0, 0.7);
+}
+
+.Krim {
+    text-align: center;
+    padding: 6rem 1rem 4rem;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-container::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 107, 0, 0.3);
+    animation: pulse 3s infinite;
+}
+
+.price-item p {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.price-card-header::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price-card:nth-child(2) { animation-delay: 0.2s; }
+
+.contact-btn:active {
+    transform: translateY(0);
+}
+
+.price-card-header i {
+    margin-right: 12px;
+    font-size: 2rem;
+}
+
+.contact-btn i {
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+    font-size: 1.8rem;
+}
+
+.price-card-body {
+    padding: 2.2rem;
+}
+
+.Krim p {
+    font-size: 1.4rem;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.price-item:hover {
+    transform: translateX(5px);
+}
+
+.price-card-header {
+    background: linear-gradient(135deg, #ff8c00, #ff6b00);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.5s;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 107, 0, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #ff8c00;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 107, 0, 0.3);
+}
+
+.price-card {
+    background: rgba(30, 30, 30, 0.8);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 107, 0, 0.3);
+    animation: fadeIn 0.6s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.price-item i {
+    margin-right: 12px;
+    color: #ff8c00;
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+}
+
+.contact-btn:hover i {
+    transform: translateX(8px) rotate(360deg);
+}
+
+.price-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.contact-btn:hover::before {
+    left: 100%;
+}
+
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bar:nth-child(3) {
+    left: 60%;
+    animation-delay: -10s;
+    animation-duration: 30s;
+}
+
+.price {
+    font-weight: 700;
+    color: #ff8c00;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(255, 140, 0, 0.5);
+}
+
+.avatar-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.circle:nth-child(5) {
+    width: 90px;
+    height: 90px;
+    top: 20%;
+    left: 50%;
+    animation-delay: 5s;
+    animation-duration: 17s;
+}
+
+.payment-warning p {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.dropdown-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.circle:nth-child(3) {
+    width: 60px;
+    height: 60px;
+    top: 40%;
+    left: 60%;
+    animation-delay: 4s;
+    animation-duration: 15s;
+}
+
+.price-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 3rem;
+}
+
+.menu-btn:hover {
+    transform: translateY(-3px) rotate(90deg);
+    box-shadow: 0 6px 20px rgba(255, 107, 0, 0.6);
+}
+
+.Krim h1 {
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #ff8c00, #ffcc33, #ff8c00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientShift 5s infinite;
+}
+
+.payment-warning::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #ff6b00, #ff9d00, #ff6b00);
+    animation: gradientShift 3s infinite;
+}
+
+.bar:nth-child(1) {
+    left: -100px;
+    animation-delay: 0s;
+}
+
+.price-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 40px rgba(255, 107, 0, 0.4);
+    border: 1px solid rgba(255, 107, 0, 0.6);
+}
+
+.circle:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    top: 70%;
+    left: 30%;
+    animation-delay: 1s;
+    animation-duration: 22s;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, #ff8c00, #ff6b00);
+    color: white;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 25px rgba(255, 107, 0, 0.5);
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite, float 6s infinite;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.dropdown-menu button {
+    width: 100%;
+    text-align: left;
+    padding: 15px 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    color: #fff;
+    font-weight: 500;
+}
+
+.payment-method:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 107, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(255, 107, 0, 0.3);
+}
+
+.circle:nth-child(2) {
+    width: 120px;
+    height: 120px;
+    top: 60%;
+    left: 80%;
+    animation-delay: 2s;
+    animation-duration: 18s;
+}
+
+.payment-warning h3 i {
+    margin-right: 12px;
+    animation: bounce 2s infinite;
+}
+
+.dropdown-menu button:hover {
+    background: rgba(255, 107, 0, 0.2);
+    color: #ff8c00;
+}
+
+body {
+    background: linear-gradient(120deg, #1a1a1a, #2a2a2a);
+    color: #fff;
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.price-card:nth-child(3) { animation-delay: 0.3s; }
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid transparent;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    background: linear-gradient(45deg, #ff8c00, #ff6b00, #ff8c00);
+    padding: 4px;
+}
+
+.price-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.gradient-bars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    opacity: 0.3;
+}
+
+.payment-warning h3 {
+    color: #ff8c00;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar:nth-child(2) {
+    left: 30%;
+    animation-delay: -5s;
+    animation-duration: 25s;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    margin: 2rem 0;
+}
+
+.dropdown-menu i {
+    margin-right: 12px;
+    color: #ff8c00;
+    font-size: 1.2rem;
+    width: 24px;
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 107, 0, 0.1);
+    animation: float 15s infinite linear;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 3rem;
+    margin-top: 5rem;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 107, 0, 0.3);
+}
+
+.price-card:nth-child(1) { animation-delay: 0.1s; }
+
+.circle:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    top: 10%;
+    left: 20%;
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+.logo i {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #ff6b00;
+}
+
+.payment-method i {
+    margin-right: 10px;
+    color: #ff8c00;
+    font-size: 1.3rem;
+}
+
+.avatar:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 15px 40px rgba(255, 107, 0, 0.4);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 220px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    overflow: hidden;
+    margin-top: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 107, 0, 0.2);
+}
+
+header {
+    background: rgba(20, 20, 20, 0.8);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255, 107, 0, 0.3);
+}
+
+.section-title i {
+    margin: 0 15px;
+    color: #ff8c00;
+    font-size: 2.5rem;
+    animation: bounce 2s infinite;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #ff8c00, #ff6b00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.crypto-bot-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: linear-gradient(135deg, #0088cc, #00aced);
+    border-radius: 6px;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.crypto-bot-icon::before {
+    content: "₿";
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.payment-warning {
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 16px;
+    padding: 25px;
+    margin: 40px auto;
+    text-align: center;
+    max-width: 650px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 2px solid #ff6b00;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    animation: shake 10s infinite;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-btn {
+    background: linear-gradient(135deg, #ff8c00, #ff6b00);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.4);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar:nth-child(4) {
+    left: 90%;
+    animation-delay: -15s;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(255, 107, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 0, 0);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    20% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes slide {
+    0% {
+        top: -150%;
+    }
+    to {
+        top: 150%;
+    }
+}
+
+@keyframes shake {
+    0%, 90%, 92%, 94%, 96%, 98%, 100% {
+        transform: translateX(0);
+    }
+    91%, 93%, 95%, 97%, 99% {
+        transform: translateX(5px);
+    }
+}
+
+@media (max-width: 768px) {
+    .Krim h1 {
+        font-size: 2.5rem;
+    }
+    
+    .price-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-btn {
+        padding: 16px 32px;
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .payment-methods {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .avatar {
+        width: 170px;
+        height: 170px;
+    }
+}
